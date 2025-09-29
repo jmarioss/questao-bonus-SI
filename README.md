@@ -7,13 +7,15 @@ Ele utiliza técnicas básicas de processamento de imagens e um classificador de
 
 ## Como executar
 
-1. Instale as dependências a partir do arquivo `requirements.txt`:
+1. Instale as dependências a partir do arquivo as dependencias:
 
 ```bash
-pip install -r requirements.txt
+pip install opencv-python
+pip install numpy
+pip install scikit-learn
 ```
 
-2. Organize suas imagens na pasta `folhas/`:
+2. As imagens estarão organizadas na pasta `folhas/`:
 
 ```
 folhas/
@@ -36,3 +38,4 @@ python main.py
 ```
 
 4. O sistema exibirá no terminal se a folha de teste é "Saudável" ou "Doente".
+
